@@ -45,7 +45,7 @@ const server = http.createServer(app);
 // Initialize socket.io with the server
 const io = socketIo(server, {
   cors: {
-    origin: 'http://localhost:3000',
+    origin: 'https://main.d2erika49f729w.amplifyapp.com/',
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true
